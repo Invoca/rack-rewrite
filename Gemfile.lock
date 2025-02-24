@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    rack-rewrite (1.0.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mocha (0.9.12)
+    power_assert (1.2.0)
+    rack (2.2.8.1)
+    rake (13.2.1)
+    shoulda (2.10.3)
+    test-unit (3.3.6)
+      power_assert
+
+PLATFORMS
+  x86_64-darwin-22
+  x86_64-darwin-23
+
+DEPENDENCIES
+  mocha (~> 0.9.7)
+  rack
+  rack-rewrite!
+  rake
+  shoulda (~> 2.10.2)
+  test-unit
+
+BUNDLED WITH
+   2.3.22
